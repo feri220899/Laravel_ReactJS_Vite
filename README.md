@@ -9,6 +9,11 @@
 
 ## About Laravel React
 Cara installasi :
-git clone 
-
-
+1. ketik :git clone https://github.com/feri220899/Laravel_ReactJS_Vite.git
+2. ketik : composer install
+3. ketik : npm install
+4. ketik : php artisan key:generate
+5. copy .env.example dan ubah namanya menjadi .env
+6. ketik : npm run dev
+7. ketik: php artisan serve
+8. buka browser jalankan alamat localhost:8000
