@@ -1,6 +1,7 @@
 <?php
 
 use Inertia\Inertia;
+use App\Http\Controllers\Home;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
 use App\Http\Controllers\Test\TestController;
@@ -17,5 +18,7 @@ use App\Http\Controllers\Test\TestController;
 */
 
 Route::get('/', [TestController::class, 'Test']);
+Route::get('/home', [Home::class, 'Home']);
+
 
 
