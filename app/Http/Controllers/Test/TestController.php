@@ -10,7 +10,7 @@ class TestController extends Controller
 {
    function Test(){
     $test = 'tetstttt';
-    return Inertia::render('Dashboard',[
+    return Inertia::render('TestView',[
         'test'=> $test,
     ]);
    }

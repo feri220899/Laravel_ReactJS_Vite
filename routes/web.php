@@ -2,6 +2,7 @@
 
 use Inertia\Inertia;
 use App\Http\Controllers\Home;
+use App\Http\Controllers\Dashboard;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
 use App\Http\Controllers\Test\TestController;
@@ -17,7 +18,7 @@ use App\Http\Controllers\Test\TestController;
 |
 */
 
-Route::get('/', [TestController::class, 'Test']);
+Route::get('/', [Dashboard::class, 'Dashboard']);
 Route::get('/home', [Home::class, 'Home']);
 
 

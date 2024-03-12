@@ -1,4 +1,4 @@
-import { Head, Link, usePage } from "@inertiajs/react";
+import { Link, usePage } from "@inertiajs/react";
 import { FaHome, FaFilter} from "react-icons/fa";
 
 function Menu({ expanded, onMenuItemClick  }) {

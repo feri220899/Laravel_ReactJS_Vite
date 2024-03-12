@@ -21,7 +21,9 @@
     },
     "dependencies": {
         "@inertiajs/inertia": "^0.11.1",
+        "crypto-js": "^4.2.0",
         "daisyui": "^3.9.4",
+        "react-hook-form": "^7.51.0",
         "react-icons": "^5.0.1"
     }
 }
