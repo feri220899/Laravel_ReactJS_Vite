@@ -1,4 +1,4 @@
-import React, { Children, useState } from 'react'
+import React, { Children, useEffect, useState } from 'react'
 import { FaFingerprint, FaGripLines } from "react-icons/fa";
 import Menu from '../component/Menu';
 import { Head } from '@inertiajs/react';
