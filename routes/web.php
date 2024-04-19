@@ -3,6 +3,7 @@
 use Inertia\Inertia;
 use App\Http\Controllers\Home;
 use App\Http\Controllers\Dashboard;
+use App\Http\Controllers\Auth\Login;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
 use App\Http\Controllers\Test\TestController;
@@ -18,8 +19,10 @@ use App\Http\Controllers\Test\TestController;
 |
 */
 
-Route::get('/', [Dashboard::class, 'Dashboard']);
-Route::get('/home', [Home::class, 'Home']);
+Route::get('/login', [Login::class, 'Login']);
+Route::get('/mesinlogin', [Login::class, 'MesinLogin']);
+Route::get('/', [Dashboard::class, 'Dashboard'])->middleware('test');
+Route::get('/home', [Home::class, 'Home'])->middleware('test');
 
 
 

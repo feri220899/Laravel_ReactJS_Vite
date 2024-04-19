@@ -12,6 +12,7 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.7",
         "tightenco/ziggy": "^1.0",
+        "tymon/jwt-auth": "^2.1",
         "virusphp/bridging-bpjs": "^2.1"
     },
     "require-dev": {
